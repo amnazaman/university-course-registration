@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <tile>University Course Registration</tile>
+            <link rel="stylesheet" href="./styles.css">
+        </head>
+    <body>
+        <header id="Welcome-banner">
+            <h1>University Course Registration</h1>
+            <p>
+                explore course and registration for your preferred course.
+            </p>
+            <nav>
+                <a href="courses">Available Courses</a>
+                <a href="#registration">student Registration</a>
+            </nav>
+
+       </header>
+       <section class="courses" id="courses">
+        <h2>Avalaible Courses</h2>
+        <div class="course-card">
+         <h3>Web Development</h3>
+         <p class=course-description>
+            learn HTML,CSS and javascript to bulid websides.
+         </p>
+         <p>Duration: 16 weeks</p>
+         <a href="registration">learn more</a>
+         <a href="registration"target="blank">Enroll Now</a>
+        </div>
+
+         <div class="course-card">
+         <h3>Mobile Application Development</h3>
+         <p class=course-description>
+            learn to develop mobile applicationsfor Android devices.
+         </p>
+         <p>Duration: 12 weeks</p>
+         <a href="registration">learn more</a>
+         <a href="registration"target="blank">Enroll Now</a>
+        </div>
+
+         <div class="course-card">
+         <h3>DataBase Management</h3>
+         <p class=course-description>
+            learn database design and SQL queries.
+         </p>
+         <p>Duration: 10 weeks</p>
+         <a href="registration">learn more</a>
+         <a href="registration"target="blank">Enroll Now</a>
+        </div>
+    </section> 
+    <section class="registration-section" id="registration">
+        <h2>Student Registration</h2>
+        <from>
+            <label for="fullname">Full Name:</label>
+            <input type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Enter your name">
+            <label for="email">Email Address:</label>
+            <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter your email">
+               <label for="password">Password:</label>
+               <input type="password"
+               id="password"
+               name="password"
+               placeholder="Enter your password">
+               <label for="course">select course:</label>
+               <select id="course" name="course">
+                <option> Web Development </option>
+                <option> Mobile Application Development </option>
+                <option> Database Management </option>
+
+               </select>
+               <button type="submit">Submit Registration</button>
+        
+            </from>
+
+</section>
+   
+    </body>
+</html>
