@@ -1,0 +1,90 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Welcome Banner */
+header {
+    background-color: #234b70;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Courses Section */
+.courses {
+    padding: 20px;
+    text-align: center;
+}
+
+.course-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px auto;
+    width: 70%;
+    border-radius: 8px;
+}
+
+.course-description {
+    color: #666;
+}
+
+.course-card a {
+    color: #e90d0d;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Registration Section */
+.registration-section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.registration-section h2 {
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-top: 12px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #234b70;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #16344f;
+}
